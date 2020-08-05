@@ -42,6 +42,7 @@ nav .links{
     align-self: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .form-line1{
@@ -50,19 +51,49 @@ nav .links{
     justify-content: center;
     background-color: white;
     /* margin: 10px 0px; */
-    
+    border: 5px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
     
 }
 
-.hero{
-    height: calc(100% - 109%);
-    padding: 20px 40%;
+.button{
+    background-color: #0086ba;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
 }
+
+p{
+    color:black
+}
+
+.text{
+    color: white;
+}
+
+.input1{
+    margin-right: 58px;
+}
+
+.input2{
+    margin-right: 20px;
+}
+
 .detail{
     width: 100%;
     max-width: 300px;
-    min-height: 100%;
-    
+    min-height: 100%;   
 }
 
 .detail p.text{
@@ -70,7 +101,15 @@ nav .links{
     margin-bottom: 5px;
 }
 
-div .h1{
-    font-size: 500%;
+div.h1{
+    font-weight: bold;
+}
+
+div .a{
+    text-decoration-line: underline;
+    text-decoration-color: #0086ba;
+    text-align: center;
+    margin: 50px;
+    
 }
 
