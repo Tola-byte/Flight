@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-image: url('./high.jpg');
     background-size: cover;
@@ -43,6 +43,7 @@ nav .links{
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 .form-line1{
@@ -101,15 +102,77 @@ p{
     margin-bottom: 5px;
 }
 
-div.h1{
-    font-weight: bold;
+.h1{
+    /* font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px; */
 }
 
-div .a{
-    text-decoration-line: underline;
-    text-decoration-color: #0086ba;
+.a{
+    /* text-decoration-line: underline;
+    text-decoration-color: #0086ba; */
     text-align: center;
-    margin: 50px;
+    font-size: 17px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    color: white;
+    position: relative;
+}
+
+.a::after{
+    width: 9rem;
+    height: 0.5rem;
+    background-color: #013f5e50;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    content: '';
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.Info-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position:absolute;
+    left: 50%;
+    top: 90%;
+    bottom: -20%;
+    transform: translate(-50%, -20%);
+    z-index: 10;
     
 }
+
+.Info-cards div{
+    background-color: #ffffff;
+}
+
+.info-cards .card{
+    width: 350px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 18px #222222 ;
+    display: flex;
+}
+
+.card img{
+    width: 40%;
+}
+
+.card .info{
+    width: 70%;
+    padding: 15px;
+    position: absolute;
+}
+
+.card .info p{
+    font-size: 12px;
+    color: #8a8d96;
+   
+}
+
+
+
 
