@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    /*I commented here to make the background image cover the screen*/
+    background-image: url('./high.jpg');
+    background-size: cover;
+}
+
+.container{
+    height: 150vh;
+    width: 100vw;
+    background-image: url('./high.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav .links{
+    padding: 15px;
+}
+
+.book-a-flight{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.form-line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    /* margin: 10px 0px; */
+    border: 5px;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+.button{
+    background-color: #0086ba;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    float: left;
+
+}
+h3{
+    color: black
+}
+p{
+    color:black
+}
+
+.input1{
+    margin-right: 58px;
+}
+
+.input2{
+    margin-right: 20px;
+}
+
+.detail{
+    width: 100%;
+    max-width: 300px;
+    min-height: 100%;   
+}
+
+.detail p.text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.h1{
+    /* font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px; */
+}
+
+.a{
+    /* text-decoration-line: underline;
+    text-decoration-color: #0086ba; */
+    text-align: center;
+    font-size: 17px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    color: white;
+    position: relative;
+}
+
+}
+.a::after{
+    width: 9rem;
+    height: 0.5rem;
+    background-color: #013f5e50;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    content: '';
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.Info-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position:absolute;
+    left: 50%;
+    top: 90%;
+    bottom: -20%;
+    transform: translate(-50%, -20%);
+    z-index: 10;
+    
+}
+
+.Info-cards div{
+    background-color: #ffffff;
+}
+
+.info-cards .card{
+    width: 350px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 18px #222222 ;
+    display: flex;
+}
+
+.card img{
+    width: 40%;
+}
+
+.card .info{
+    width: 70%;
+    padding: 15px;
+    position: absolute;
+}
+
+.card .info p{
+    font-size: 12px;
+    color: #8a8d96;
+   
+}
+.clear{
+    clear: both;
+}
+.info{
+    width: 800px;
+    
+    display: inline-block;
+    align-content: right
+
+}
+
+
+
+
